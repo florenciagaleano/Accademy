@@ -1,0 +1,10 @@
+C:\Users\Flia. Galeano\Desktop\Accademy\AppWindowsFinal\AppWindowsFinal\bin\Debug\AppWindowsFinal.exe.config
+C:\Users\Flia. Galeano\Desktop\Accademy\AppWindowsFinal\AppWindowsFinal\bin\Debug\AppWindowsFinal.exe
+C:\Users\Flia. Galeano\Desktop\Accademy\AppWindowsFinal\AppWindowsFinal\bin\Debug\AppWindowsFinal.pdb
+C:\Users\Flia. Galeano\Desktop\Accademy\AppWindowsFinal\AppWindowsFinal\obj\Debug\AppWindowsFinal.Form1.resources
+C:\Users\Flia. Galeano\Desktop\Accademy\AppWindowsFinal\AppWindowsFinal\obj\Debug\AppWindowsFinal.Properties.Resources.resources
+C:\Users\Flia. Galeano\Desktop\Accademy\AppWindowsFinal\AppWindowsFinal\obj\Debug\AppWindowsFinal.csproj.GenerateResource.cache
+C:\Users\Flia. Galeano\Desktop\Accademy\AppWindowsFinal\AppWindowsFinal\obj\Debug\AppWindowsFinal.csproj.CoreCompileInputs.cache
+C:\Users\Flia. Galeano\Desktop\Accademy\AppWindowsFinal\AppWindowsFinal\obj\Debug\AppWindowsFinal.exe
+C:\Users\Flia. Galeano\Desktop\Accademy\AppWindowsFinal\AppWindowsFinal\obj\Debug\AppWindowsFinal.pdb
+C:\Users\Flia. Galeano\Desktop\Accademy\AppWindowsFinal\AppWindowsFinal\obj\Debug\AppWindowsFinal.csprojAssemblyReference.cache

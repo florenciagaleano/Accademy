@@ -1,0 +1,14 @@
+C:\Users\Flia. Galeano\Desktop\Accademy\RepasoIntegrador\AppWindows\bin\Debug\AppWindows.exe.config
+C:\Users\Flia. Galeano\Desktop\Accademy\RepasoIntegrador\AppWindows\bin\Debug\AppWindows.exe
+C:\Users\Flia. Galeano\Desktop\Accademy\RepasoIntegrador\AppWindows\bin\Debug\AppWindows.pdb
+C:\Users\Flia. Galeano\Desktop\Accademy\RepasoIntegrador\AppWindows\bin\Debug\Datos.dll
+C:\Users\Flia. Galeano\Desktop\Accademy\RepasoIntegrador\AppWindows\bin\Debug\Datos.pdb
+C:\Users\Flia. Galeano\Desktop\Accademy\RepasoIntegrador\AppWindows\bin\Debug\Datos.dll.config
+C:\Users\Flia. Galeano\Desktop\Accademy\RepasoIntegrador\AppWindows\obj\Debug\AppWindows.csprojAssemblyReference.cache
+C:\Users\Flia. Galeano\Desktop\Accademy\RepasoIntegrador\AppWindows\obj\Debug\AppWindows.Form1.resources
+C:\Users\Flia. Galeano\Desktop\Accademy\RepasoIntegrador\AppWindows\obj\Debug\AppWindows.Properties.Resources.resources
+C:\Users\Flia. Galeano\Desktop\Accademy\RepasoIntegrador\AppWindows\obj\Debug\AppWindows.csproj.GenerateResource.cache
+C:\Users\Flia. Galeano\Desktop\Accademy\RepasoIntegrador\AppWindows\obj\Debug\AppWindows.csproj.CoreCompileInputs.cache
+C:\Users\Flia. Galeano\Desktop\Accademy\RepasoIntegrador\AppWindows\obj\Debug\AppWindows.csproj.CopyComplete
+C:\Users\Flia. Galeano\Desktop\Accademy\RepasoIntegrador\AppWindows\obj\Debug\AppWindows.exe
+C:\Users\Flia. Galeano\Desktop\Accademy\RepasoIntegrador\AppWindows\obj\Debug\AppWindows.pdb

@@ -1,0 +1,13 @@
+C:\Users\Flia. Galeano\Desktop\Accademy\DatosBL\WindowsSegura\bin\Debug\WindowsSegura.exe.config
+C:\Users\Flia. Galeano\Desktop\Accademy\DatosBL\WindowsSegura\bin\Debug\WindowsSegura.exe
+C:\Users\Flia. Galeano\Desktop\Accademy\DatosBL\WindowsSegura\bin\Debug\WindowsSegura.pdb
+C:\Users\Flia. Galeano\Desktop\Accademy\DatosBL\WindowsSegura\bin\Debug\DatosBL.dll
+C:\Users\Flia. Galeano\Desktop\Accademy\DatosBL\WindowsSegura\bin\Debug\DatosBL.pdb
+C:\Users\Flia. Galeano\Desktop\Accademy\DatosBL\WindowsSegura\obj\Debug\WindowsSegura.csprojAssemblyReference.cache
+C:\Users\Flia. Galeano\Desktop\Accademy\DatosBL\WindowsSegura\obj\Debug\WindowsSegura.Form1.resources
+C:\Users\Flia. Galeano\Desktop\Accademy\DatosBL\WindowsSegura\obj\Debug\WindowsSegura.Properties.Resources.resources
+C:\Users\Flia. Galeano\Desktop\Accademy\DatosBL\WindowsSegura\obj\Debug\WindowsSegura.csproj.GenerateResource.cache
+C:\Users\Flia. Galeano\Desktop\Accademy\DatosBL\WindowsSegura\obj\Debug\WindowsSegura.csproj.CoreCompileInputs.cache
+C:\Users\Flia. Galeano\Desktop\Accademy\DatosBL\WindowsSegura\obj\Debug\WindowsSegura.csproj.CopyComplete
+C:\Users\Flia. Galeano\Desktop\Accademy\DatosBL\WindowsSegura\obj\Debug\WindowsSegura.exe
+C:\Users\Flia. Galeano\Desktop\Accademy\DatosBL\WindowsSegura\obj\Debug\WindowsSegura.pdb

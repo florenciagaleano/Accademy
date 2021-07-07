@@ -1,0 +1,6 @@
+C:\Users\Flia. Galeano\Desktop\Accademy\DatosBL\DatosBL\bin\Debug\DatosBL.dll
+C:\Users\Flia. Galeano\Desktop\Accademy\DatosBL\DatosBL\bin\Debug\DatosBL.pdb
+C:\Users\Flia. Galeano\Desktop\Accademy\DatosBL\DatosBL\obj\Debug\DatosBL.csprojAssemblyReference.cache
+C:\Users\Flia. Galeano\Desktop\Accademy\DatosBL\DatosBL\obj\Debug\DatosBL.csproj.CoreCompileInputs.cache
+C:\Users\Flia. Galeano\Desktop\Accademy\DatosBL\DatosBL\obj\Debug\DatosBL.dll
+C:\Users\Flia. Galeano\Desktop\Accademy\DatosBL\DatosBL\obj\Debug\DatosBL.pdb

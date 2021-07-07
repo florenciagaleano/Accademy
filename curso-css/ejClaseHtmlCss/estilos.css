@@ -1,0 +1,43 @@
+#secundaria p{
+    color:darkcyan
+}
+
+/*hijos de secundaria*/
+#secundaria > p{
+    font-weight: bold;
+    background-color: #222;
+}
+
+section{
+    border:2px solid #789;
+    margin: 20px;
+}
+
+article p{
+    text-align: center;
+}
+
+article{
+    border:2px dotted #789;
+    margin:20px;
+}
+
+#principal article p{
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+/*hermanos de h1*/
+h1~p{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/*p hnos adyacentes*/
+h2+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.titulo+p{
+    font-weight: bold;
+}

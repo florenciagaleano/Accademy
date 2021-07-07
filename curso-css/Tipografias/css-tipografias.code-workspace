@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "modelo-de-caja",
+			"path": "..\\modelo-de-caja"
+		},
+		{
+			"name": "clase-01",
+			"path": "..\\clase-01"
+		},
+		{
+			"path": "..\\..\\ejClaseHtmlCss"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "modelo-de-caja"
+	}
+}

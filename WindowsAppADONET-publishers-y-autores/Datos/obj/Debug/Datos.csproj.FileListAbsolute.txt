@@ -1,0 +1,14 @@
+C:\Users\Viviana\Documents\Capacitación .NET\Apuntes\4- POO y C#\WindowsAppADONET\Datos\bin\Debug\Datos.dll.config
+C:\Users\Viviana\Documents\Capacitación .NET\Apuntes\4- POO y C#\WindowsAppADONET\Datos\bin\Debug\Datos.dll
+C:\Users\Viviana\Documents\Capacitación .NET\Apuntes\4- POO y C#\WindowsAppADONET\Datos\bin\Debug\Datos.pdb
+C:\Users\Viviana\Documents\Capacitación .NET\Apuntes\4- POO y C#\WindowsAppADONET\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\Viviana\Documents\Capacitación .NET\Apuntes\4- POO y C#\WindowsAppADONET\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Viviana\Documents\Capacitación .NET\Apuntes\4- POO y C#\WindowsAppADONET\Datos\obj\Debug\Datos.dll
+C:\Users\Viviana\Documents\Capacitación .NET\Apuntes\4- POO y C#\WindowsAppADONET\Datos\obj\Debug\Datos.pdb
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\Datos\bin\Debug\Datos.dll.config
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\Datos\bin\Debug\Datos.dll
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\Datos\bin\Debug\Datos.pdb
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\Datos\obj\Debug\Datos.csprojAssemblyReference.cache
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\Datos\obj\Debug\Datos.dll
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\Datos\obj\Debug\Datos.pdb

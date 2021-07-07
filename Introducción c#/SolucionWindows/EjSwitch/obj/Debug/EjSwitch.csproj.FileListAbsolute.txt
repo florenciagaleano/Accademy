@@ -1,0 +1,7 @@
+C:\Users\Flia. Galeano\Desktop\Accademy\SolucionWindows\EjSwitch\bin\Debug\EjSwitch.exe.config
+C:\Users\Flia. Galeano\Desktop\Accademy\SolucionWindows\EjSwitch\bin\Debug\EjSwitch.exe
+C:\Users\Flia. Galeano\Desktop\Accademy\SolucionWindows\EjSwitch\bin\Debug\EjSwitch.pdb
+C:\Users\Flia. Galeano\Desktop\Accademy\SolucionWindows\EjSwitch\obj\Debug\EjSwitch.csproj.CoreCompileInputs.cache
+C:\Users\Flia. Galeano\Desktop\Accademy\SolucionWindows\EjSwitch\obj\Debug\EjSwitch.exe
+C:\Users\Flia. Galeano\Desktop\Accademy\SolucionWindows\EjSwitch\obj\Debug\EjSwitch.pdb
+C:\Users\Flia. Galeano\Desktop\Accademy\SolucionWindows\EjSwitch\obj\Debug\EjSwitch.csprojAssemblyReference.cache

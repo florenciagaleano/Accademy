@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;0,900;1,100;1,400;1,700&display=swap');
+
+h1, h2 {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 120px;
+    font-weight: 100;
+    font-style: italic;
+    
+}
+
+h2 {
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}

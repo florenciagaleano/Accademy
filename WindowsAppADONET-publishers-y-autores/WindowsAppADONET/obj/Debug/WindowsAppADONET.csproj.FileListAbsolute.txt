@@ -1,0 +1,32 @@
+C:\Users\Viviana\Documents\Capacitación .NET\Apuntes\4- POO y C#\WindowsAppADONET\WindowsAppADONET\bin\Debug\WindowsAppADONET.exe.config
+C:\Users\Viviana\Documents\Capacitación .NET\Apuntes\4- POO y C#\WindowsAppADONET\WindowsAppADONET\bin\Debug\WindowsAppADONET.exe
+C:\Users\Viviana\Documents\Capacitación .NET\Apuntes\4- POO y C#\WindowsAppADONET\WindowsAppADONET\bin\Debug\WindowsAppADONET.pdb
+C:\Users\Viviana\Documents\Capacitación .NET\Apuntes\4- POO y C#\WindowsAppADONET\WindowsAppADONET\obj\Debug\WindowsAppADONET.csproj.AssemblyReference.cache
+C:\Users\Viviana\Documents\Capacitación .NET\Apuntes\4- POO y C#\WindowsAppADONET\WindowsAppADONET\obj\Debug\WindowsAppADONET.Form1.resources
+C:\Users\Viviana\Documents\Capacitación .NET\Apuntes\4- POO y C#\WindowsAppADONET\WindowsAppADONET\obj\Debug\WindowsAppADONET.Properties.Resources.resources
+C:\Users\Viviana\Documents\Capacitación .NET\Apuntes\4- POO y C#\WindowsAppADONET\WindowsAppADONET\obj\Debug\WindowsAppADONET.csproj.GenerateResource.cache
+C:\Users\Viviana\Documents\Capacitación .NET\Apuntes\4- POO y C#\WindowsAppADONET\WindowsAppADONET\obj\Debug\WindowsAppADONET.csproj.CoreCompileInputs.cache
+C:\Users\Viviana\Documents\Capacitación .NET\Apuntes\4- POO y C#\WindowsAppADONET\WindowsAppADONET\obj\Debug\WindowsAppADONET.exe
+C:\Users\Viviana\Documents\Capacitación .NET\Apuntes\4- POO y C#\WindowsAppADONET\WindowsAppADONET\obj\Debug\WindowsAppADONET.pdb
+C:\Users\Viviana\Documents\Capacitación .NET\Apuntes\4- POO y C#\WindowsAppADONET\WindowsAppADONET\obj\Debug\WindowsAppADONET.frmReader.resources
+C:\Users\Viviana\Documents\Capacitación .NET\Apuntes\4- POO y C#\WindowsAppADONET\WindowsAppADONET\bin\Debug\Datos.dll
+C:\Users\Viviana\Documents\Capacitación .NET\Apuntes\4- POO y C#\WindowsAppADONET\WindowsAppADONET\bin\Debug\Datos.pdb
+C:\Users\Viviana\Documents\Capacitación .NET\Apuntes\4- POO y C#\WindowsAppADONET\WindowsAppADONET\bin\Debug\Datos.dll.config
+C:\Users\Viviana\Documents\Capacitación .NET\Apuntes\4- POO y C#\WindowsAppADONET\WindowsAppADONET\obj\Debug\WindowsAppADONET.csproj.CopyComplete
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\WindowsAppADONET\bin\Debug\WindowsAppADONET.exe.config
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\WindowsAppADONET\bin\Debug\WindowsAppADONET.exe
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\WindowsAppADONET\bin\Debug\WindowsAppADONET.pdb
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\WindowsAppADONET\bin\Debug\Datos.dll
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\WindowsAppADONET\bin\Debug\Datos.pdb
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\WindowsAppADONET\bin\Debug\Datos.dll.config
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\WindowsAppADONET\obj\Debug\WindowsAppADONET.csprojAssemblyReference.cache
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\WindowsAppADONET\obj\Debug\WindowsAppADONET.Form1.resources
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\WindowsAppADONET\obj\Debug\WindowsAppADONET.frmReader.resources
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\WindowsAppADONET\obj\Debug\WindowsAppADONET.Properties.Resources.resources
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\WindowsAppADONET\obj\Debug\WindowsAppADONET.csproj.GenerateResource.cache
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\WindowsAppADONET\obj\Debug\WindowsAppADONET.csproj.CoreCompileInputs.cache
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\WindowsAppADONET\obj\Debug\WindowsAppADONET.csproj.CopyComplete
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\WindowsAppADONET\obj\Debug\WindowsAppADONET.exe
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\WindowsAppADONET\obj\Debug\WindowsAppADONET.pdb
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\WindowsAppADONET\obj\Debug\WindowsAppADONET.pruebasDesprolijas.resources
+C:\Users\Flia. Galeano\Downloads\WindowsAppADONET\WindowsAppADONET\obj\Debug\WindowsAppADONET.FrmDesconectado.resources

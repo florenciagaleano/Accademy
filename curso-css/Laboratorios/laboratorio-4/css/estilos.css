@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+    font-size: 90%;
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    width: 100%;
+    height: 40px;
+}
+
+nav a{
+        text-decoration: none; 
+        margin: 2px;
+        color: black;
+}
+
+main{
+    margin:20px;/*esto lo voy a sacar*/
+}
+
+div{
+    width: 50%;
+}
+
+#encabezado{
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-image: url(../imagenes/banner.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#encabezado div{
+    width:50%;
+}
+
+#encabezado h1{
+    font-family: 'Poppins',sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 2em;
+}
+
+#encabezado h1 span{
+    font-family: miFuente;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3em;
+    color: rgb(218, 138, 35);
+    text-transform: lowercase;
+}
+
+main{
+    width: 100%;
+}
+
+nav img{
+    width: 2%;
+    max-width: 100%;
+    height: auto;
+    margin-right: auto;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+h1,
+h2{
+    margin:20px;
+}
+
+h2{
+    font-family: miFuente;
+    font-size: 2em;
+    color: lightsalmon;
+}
+
+h4{
+    font-size: 1.4em;
+    color:rgb(238, 188, 101);
+    border-bottom: 1px dotted rgb(182, 93, 21);
+    text-shadow: 2px 3px 2px rgba(89, 107, 8, 0.911);
+}
+
+p{
+    font-size: 1.2em;
+}
+
+h3{
+    font-family: mifuente;
+    font-size: 3em;
+    color: rgb(230, 200, 30);
+}
+
+.activo{
+    text-decoration: underline;
+}
+
+article{
+    width: 50%;
+    padding:1em;
+    float: left;
+}
+
+.division{
+    width: 100%;
+    padding:1rem;
+    display: flex;
+    margin-bottom: 2px;
+}
+
+.division div{
+    width: 50%;
+}
+
+.division div img{
+    width: 80%;
+    margin: auto;/*esto lo voy a cambiar*/
+    display:block;
+    border-radius: 10px / 20px;
+    box-shadow: 1px 3px 10px black;
+}
+
+.division img:hover{
+    opacity: 0.5;
+}
+
+.nosotros{
+    background-color: chocolate;
+}
+
+.nosotros h2{
+    font-family: miFuente;
+    font-size: 2em;
+    color: rgb(223, 152, 61);
+}
+
+.nosotros p{
+    font-size: 1.2em;
+    color: white;
+}
+
+.nosotros .grilla{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 200px 200px;
+}
+
+.grilla div{
+    background-color: red;
+}
+
+.grilla div:first-child{
+    background-position: -140px 0px ;grid-row-start: 1; grid-row-end: 3;background-image: url(../imagenes/gym-01.JPG);
+}
+
+.grilla div:nth-child(2){
+    background-image: url(../imagenes/gym-02.JPG);
+}
+
+.grilla div:nth-child(3){
+    background-image: url(../imagenes/gym-03.JPG);
+}
+
+footer{
+    color: #FFF;
+    background-color: gray;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer ul{
+    margin: 20px;;
+    padding: 10px;
+}
+
+footer ul:first-of-type,  footer p:first-child{
+    font-weight: bold;
+}
+
+@font-face {
+    src: url(../fuentes/BodoniFLF-BoldItalic.ttf);
+    font-style: italic;
+    font-weight: bold;
+    font-family: miFuente;
+}

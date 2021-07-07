@@ -1,0 +1,121 @@
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
+
+body {
+    font-size: 12px;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    color:orangered;
+}
+
+section {
+    background-color: lightsteelblue;
+    border-style: dashed solid;
+    border-color: darkslateblue;
+}
+
+article {
+    background-color: papayawhip;
+    color: darkslateblue;
+}
+
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 12px;
+}
+
+body {
+    font-size: 12px;
+    margin: left;
+
+}
+
+h2 {
+    text-align: center;
+    margin: left;
+}
+
+p {
+    color:orangered;
+}
+
+section {
+    background-color: lightsteelblue;
+    border-style: solid dashed;
+    border-color: darkslateblue;
+}
+
+article {
+    background-color: papayawhip;
+    color: darkslateblue;
+}
+/**************** rem ****************/
+#primera {
+     width: 50rem; 
+     border-width: 0.3rem; 
+     padding: 2rem; 
+     margin-bottom: 2rem; 
+}
+
+#primera h2 {
+     font-size: 2rem; 
+}
+
+#primera p {
+     font-size: 1.5rem; 
+}
+
+#primera li {
+     font-size: 1.5rem; 
+}
+
+#primera article {
+    padding: 2rem; 
+     font-size: 1.3rem; 
+}
+
+#primera article h3 {
+     font-size: 1.3rem; 
+}
+
+
+
+
+
+
+
+/**************** em ****************/
+#segunda {
+     width: 50em; 
+     border-width: 0.3em; 
+     padding: 2em; 
+     margin-bottom: 2em; 
+}
+
+#segunda h2 {
+     font-size: 2em; 
+}
+
+#segunda p {
+     font-size: 1.5em; 
+}
+
+#segunda li {
+     font-size: 1.5em; 
+}
+
+#segunda article {
+     padding: 2rem; 
+     font-size: 1.3em; 
+}
+
+#segunda article h3 {
+     font-size: 1.3em; 
+}
