@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{376C6A44-3D28-4D30-99D6-60AEC61B93A5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>WindowsEF</RootNamespace>
+    <AssemblyName>WindowsEF</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\DBPedidosContext.cs" />
+    <Compile Include="Migrations\202107071823367_Initial.cs" />
+    <Compile Include="Migrations\202107071823367_Initial.Designer.cs">
+      <DependentUpon>202107071823367_Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107071842138_CambiarTablas.cs" />
+    <Compile Include="Migrations\202107071842138_CambiarTablas.Designer.cs">
+      <DependentUpon>202107071842138_CambiarTablas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107071856198_CambianTiposDeDatoEstablecerNotNull.cs" />
+    <Compile Include="Migrations\202107071856198_CambianTiposDeDatoEstablecerNotNull.Designer.cs">
+      <DependentUpon>202107071856198_CambianTiposDeDatoEstablecerNotNull.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107071900217_CambianTiposDeDatoEnCategoria.cs" />
+    <Compile Include="Migrations\202107071900217_CambianTiposDeDatoEnCategoria.Designer.cs">
+      <DependentUpon>202107071900217_CambianTiposDeDatoEnCategoria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107071923209_relacionestablas.cs" />
+    <Compile Include="Migrations\202107071923209_relacionestablas.Designer.cs">
+      <DependentUpon>202107071923209_relacionestablas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107071943130_cambionombreforeignkey.cs" />
+    <Compile Include="Migrations\202107071943130_cambionombreforeignkey.Designer.cs">
+      <DependentUpon>202107071943130_cambionombreforeignkey.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107072004510_agregartablaempleado.cs" />
+    <Compile Include="Migrations\202107072004510_agregartablaempleado.Designer.cs">
+      <DependentUpon>202107072004510_agregartablaempleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107072008083_agrgarcamposempleado.cs" />
+    <Compile Include="Migrations\202107072008083_agrgarcamposempleado.Designer.cs">
+      <DependentUpon>202107072008083_agrgarcamposempleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202107072014362_agregarfechanacimiento.cs" />
+    <Compile Include="Migrations\202107072014362_agregarfechanacimiento.Designer.cs">
+      <DependentUpon>202107072014362_agregarfechanacimiento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Categoria.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Empleado.cs" />
+    <Compile Include="Models\Producto.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107071823367_Initial.resx">
+      <DependentUpon>202107071823367_Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107071842138_CambiarTablas.resx">
+      <DependentUpon>202107071842138_CambiarTablas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107071856198_CambianTiposDeDatoEstablecerNotNull.resx">
+      <DependentUpon>202107071856198_CambianTiposDeDatoEstablecerNotNull.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107071900217_CambianTiposDeDatoEnCategoria.resx">
+      <DependentUpon>202107071900217_CambianTiposDeDatoEnCategoria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107071923209_relacionestablas.resx">
+      <DependentUpon>202107071923209_relacionestablas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107071943130_cambionombreforeignkey.resx">
+      <DependentUpon>202107071943130_cambionombreforeignkey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107072004510_agregartablaempleado.resx">
+      <DependentUpon>202107072004510_agregartablaempleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107072008083_agrgarcamposempleado.resx">
+      <DependentUpon>202107072008083_agrgarcamposempleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202107072014362_agregarfechanacimiento.resx">
+      <DependentUpon>202107072014362_agregarfechanacimiento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,11 @@
+C:\Users\Flia. Galeano\Desktop\Accademy\net core\Datos\Datos\bin\Debug\Datos.dll.config
+C:\Users\Flia. Galeano\Desktop\Accademy\net core\Datos\Datos\bin\Debug\Datos.dll
+C:\Users\Flia. Galeano\Desktop\Accademy\net core\Datos\Datos\bin\Debug\Datos.pdb
+C:\Users\Flia. Galeano\Desktop\Accademy\net core\Datos\Datos\bin\Debug\EntityFramework.dll
+C:\Users\Flia. Galeano\Desktop\Accademy\net core\Datos\Datos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Flia. Galeano\Desktop\Accademy\net core\Datos\Datos\bin\Debug\EntityFramework.xml
+C:\Users\Flia. Galeano\Desktop\Accademy\net core\Datos\Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Flia. Galeano\Desktop\Accademy\net core\Datos\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Flia. Galeano\Desktop\Accademy\net core\Datos\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\Flia. Galeano\Desktop\Accademy\net core\Datos\Datos\obj\Debug\Datos.dll
+C:\Users\Flia. Galeano\Desktop\Accademy\net core\Datos\Datos\obj\Debug\Datos.pdb
