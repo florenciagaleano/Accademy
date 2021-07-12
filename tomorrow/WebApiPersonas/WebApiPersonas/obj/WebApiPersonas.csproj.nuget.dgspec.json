@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Flia. Galeano\\Desktop\\Accademy\\repo-github\\Accademy\\tomorrow\\WebApiPersonas\\WebApiPersonas\\WebApiPersonas.csproj": {}
+    "C:\\Users\\Flia. Galeano\\Desktop\\Accademy\\WebApiPersonas\\WebApiPersonas\\WebApiPersonas.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Flia. Galeano\\Desktop\\Accademy\\repo-github\\Accademy\\tomorrow\\WebApiPersonas\\WebApiPersonas\\WebApiPersonas.csproj": {
+    "C:\\Users\\Flia. Galeano\\Desktop\\Accademy\\WebApiPersonas\\WebApiPersonas\\WebApiPersonas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Flia. Galeano\\Desktop\\Accademy\\repo-github\\Accademy\\tomorrow\\WebApiPersonas\\WebApiPersonas\\WebApiPersonas.csproj",
+        "projectUniqueName": "C:\\Users\\Flia. Galeano\\Desktop\\Accademy\\WebApiPersonas\\WebApiPersonas\\WebApiPersonas.csproj",
         "projectName": "WebApiPersonas",
-        "projectPath": "C:\\Users\\Flia. Galeano\\Desktop\\Accademy\\repo-github\\Accademy\\tomorrow\\WebApiPersonas\\WebApiPersonas\\WebApiPersonas.csproj",
+        "projectPath": "C:\\Users\\Flia. Galeano\\Desktop\\Accademy\\WebApiPersonas\\WebApiPersonas\\WebApiPersonas.csproj",
         "packagesPath": "C:\\Users\\Flia. Galeano\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Flia. Galeano\\Desktop\\Accademy\\repo-github\\Accademy\\tomorrow\\WebApiPersonas\\WebApiPersonas\\obj\\",
+        "outputPath": "C:\\Users\\Flia. Galeano\\Desktop\\Accademy\\WebApiPersonas\\WebApiPersonas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -40,7 +40,7 @@ namespace WebApiPersonas.Controllers
         }
 
         //insertar
-        [HttpPost]
+        [HttpPost("{id}")]
         public ActionResult Post(Person person)
         {
             _context.People.Add(person);
@@ -49,6 +49,58 @@ namespace WebApiPersonas.Controllers
             return new CreatedAtRouteResult("ObtenerPersona", new { id = person.Id }, person);
         }
 
+
+        [HttpGet("ObtenerPersona/{id}", Name = "ObtenerPersona")]
+        public ActionResult<Person> ObtenerPersona(int id)
+        {
+            return _context.People.Find(id);
+        }
+
+
+        //api/people/id
+        [HttpPut("{id}")]
+        public ActionResult Put(int id, [FromBody] Person person)
+        {
+            if(id != person.Id)
+            {
+                return BadRequest();
+            }
+
+            _context.Entry(person).State = EntityState.Modified;
+            _context.SaveChanges();
+            return Ok();
+        }
+
+        [HttpDelete("{id}")]
+        public ActionResult<Person> Delete(int id)
+        {
+            var person = _context.People.Find(id);
+
+            if(person == null)
+            {
+                return NotFound();
+            }
+
+            _context.People.Remove(person);
+            _context.SaveChanges();
+
+            return person;
+        }
+
+        //usar rutas personalizadas
+        //api/people/TrearApellido/giles
+        //GET: api/people/TrearApellido/g
+        [HttpGet("TraerApellido/{lname}")]
+        //[HttpGet("{nombre}")] //NO VA A funcionar porque ya tenemos un Get por parametro
+        public IEnumerable<Person> GetByName(string lname)
+        {
+            var person = (from p in _context.People
+                          where p.LastName.Contains(lname)
+                          //where p.LastName== nombre
+                          select p).ToList();
+
+            return person;
+        }
+
     }
 }
-
