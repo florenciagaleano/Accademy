@@ -1,0 +1,55 @@
+﻿@model IEnumerable<OperasWebSite.Models.Opera>
+
+@*@{
+        Layout = null;
+    }*@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <p>
+            @Html.ActionLink("Crear nueva opera", "Create")
+        </p>
+        <table>
+            <tr>
+                <td>
+                    @Html.DisplayNameFor(model => model.Title)
+                </td>
+                <td>
+                    @Html.DisplayNameFor(model => model.Year)
+                </td>
+                <td>
+                    @Html.DisplayNameFor(model => model.Composer)
+                </td>
+                <td>
+                    <p>some links</p>
+                </td>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Year)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Composer)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Detalle", "Detail", new {id =item.OperaId})
+                    </td>
+                </tr>
+
+            }
+        </table>
+    </div>
+</body>
+</html>
