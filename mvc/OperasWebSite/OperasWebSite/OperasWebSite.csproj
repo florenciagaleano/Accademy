@@ -99,9 +99,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OperaController.cs" />
     <Compile Include="Data\OperaDbContext.cs" />
+    <Compile Include="Filters\MyActionFilter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -126,6 +128,9 @@
     <Content Include="Views\Opera\Index.cshtml" />
     <Content Include="Views\Opera\Create.cshtml" />
     <Content Include="Views\Opera\Detail.cshtml" />
+    <Content Include="Views\Shared\_create.cshtml" />
+    <Content Include="Views\Admin\Login.cshtml" />
+    <Content Include="Views\Admin\SearchByTitle.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

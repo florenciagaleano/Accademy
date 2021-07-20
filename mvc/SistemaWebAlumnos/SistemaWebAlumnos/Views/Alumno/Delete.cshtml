@@ -1,0 +1,33 @@
+﻿@model SistemaWebAlumnos.Models.Alumno
+@{
+    ViewBag.Title = "Delete Student" + Model.Apellido;
+}
+<h2>Delete: "@Model.Apellido"</h2>
+<p>Are you sure you want to delete this student</p>
+@using (Html.BeginForm("Delete", "Alumno", FormMethod.Post))
+{
+    <div> @Html.DisplayFor(model => model.Apellido) </div>
+    <div>
+        <div>
+            <span> @Html.DisplayNameFor(model => model.Apellido): </span>
+            <span> @Html.DisplayFor(model => model.Apellido) </span>
+        </div>
+    </div>
+    <div>
+        <div>
+            <span> @Html.DisplayNameFor(model => model.Nombre): </span>
+            <span> @Html.DisplayFor(model => model.Nombre) </span>
+        </div>
+    </div>
+    <div>
+        <span class="display-label"> @Html.DisplayNameFor(model => model.DNI): </span> <span class="display-field"> @Html.DisplayFor(model => model.DNI) </span>
+    </div>
+    <div>
+        <span class="display-label"> @Html.DisplayNameFor(model => model.Email): </span>
+        <span class="display-field"> @Html.DisplayFor(model => model.Email) </span>
+    </div>
+    <p>
+        <input type="submit" value="Delete" />
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}

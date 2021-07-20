@@ -1,13 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using OperasWebSite.Data;
+using OperasWebSite.Filters;
 using OperasWebSite.Models;
 
 namespace OperasWebSite.Controllers
 {
+    [MyActionFilter]
     public class OperaController : Controller
     {
         
@@ -55,6 +58,26 @@ namespace OperasWebSite.Controllers
             } 
         }
 
-        
+        protected override void OnActionExecuting(ActionExecutingContext filterContext)
+        {
+            var controller = filterContext.RouteData.Values["controller"];
+            var action = filterContext.RouteData.Values["action"];
+
+            string mensaje = string.Format("OnActionExecuting - El nombre del controlador es {0}, el nombre de la accion es {1}", controller,action); ;
+
+            Debug.WriteLine(mensaje, "Action filterss values");
+        }
+
+
+        protected override void OnActionExecuted(ActionExecutedContext filterContext)
+        {
+            var controller = filterContext.RouteData.Values["controller"];
+            var action = filterContext.RouteData.Values["action"];
+
+            string mensaje = string.Format("OnActionExecuted - El nombre del controlador es {0}, el nombre de la accion es {1}", controller, action); ;
+
+            Debug.WriteLine(mensaje, "Action filterss values");
+        }
+
     }
 }

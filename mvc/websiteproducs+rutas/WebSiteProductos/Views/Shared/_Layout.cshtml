@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link href="~/Content/main.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+  <div id="header">
+    <h1>header</h1>
+  </div>
+  <div id="content">
+    @RenderBody()
+  </div>
+  <div id="sideBar">
+    @if (IsSectionDefined("SideBar"))
+    {
+      @RenderSection("SideBar")
+    }
+    else
+    {
+      <h3> Prueba de Zona SideBar</h3>
+    }
+
+  </div>
+  <div id="footer">
+    <h3>footer</h3>
+  </div>
+
+
+</body>
+</html>

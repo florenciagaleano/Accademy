@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
@@ -52,20 +53,31 @@ namespace SistemaWebEmpleados.Controllers
             }
         }
 
-        public ActionResult Delete()
+        public ActionResult Delete(int id)
         {
-            Empleado empleado = new Empleado();
-            return View("Delete", empleado);
+            Empleado empleado = context.Empleados.Find(id);
+            if (empleado != null)
+            {
+                return View("Delete", empleado);
+            }
+            else
+            {
+                return HttpNotFound();
+            }
+
         }
 
         [HttpPost]
-        public ActionResult Delete(int id)
+        public ActionResult Delete(Empleado empleado)
         {
-            var empleado = context.Empleados.Find(id);
-            context.Empleados.Remove(empleado);
-            context.SaveChanges();
+            if (empleado != null)
+            {
+                context.Entry(empleado).State = EntityState.Deleted;
+                context.Empleados.Remove(empleado);
+                context.SaveChanges();
+            }
+            return View(empleado);
 
-            return View("Delete", empleado);
 
         }
     }

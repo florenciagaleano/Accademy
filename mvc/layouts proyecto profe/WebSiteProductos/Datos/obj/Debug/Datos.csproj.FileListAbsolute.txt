@@ -1,0 +1,6 @@
+C:\Users\Flia. Galeano\Downloads\WebSiteProductos\Datos\bin\Debug\Datos.dll
+C:\Users\Flia. Galeano\Downloads\WebSiteProductos\Datos\bin\Debug\Datos.pdb
+C:\Users\Flia. Galeano\Downloads\WebSiteProductos\Datos\obj\Debug\Datos.csprojAssemblyReference.cache
+C:\Users\Flia. Galeano\Downloads\WebSiteProductos\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\Flia. Galeano\Downloads\WebSiteProductos\Datos\obj\Debug\Datos.dll
+C:\Users\Flia. Galeano\Downloads\WebSiteProductos\Datos\obj\Debug\Datos.pdb

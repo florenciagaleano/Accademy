@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+</head>
+<body>
+    <div id="header">
+        <h1>Sistema Web De Alumnos</h1>
+    </div>
+    <div id="top-menu">
+        <ul>
+            <li class="topmenulink">@Html.ActionLink("Home", "Index", "Home")</li>
+            <li class="topmenulink">@Html.ActionLink("Mostrar Alumnos", "Index", "Alumno")</li>
+            <li class="topmenulink">@Html.ActionLink("Ingresar Alumno", "Create", "Alumno")</li>
+        </ul>
+    </div>
+    <div id="content">
+        @RenderBody()
+    </div>
+    <div id="footer">
+    </div>
+
+</body>
+</html>
