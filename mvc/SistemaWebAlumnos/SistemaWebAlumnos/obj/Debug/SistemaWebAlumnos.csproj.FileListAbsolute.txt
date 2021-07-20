@@ -75,7 +75,6 @@ C:\Users\Flia. Galeano\Desktop\Accademy\repo-github\Accademy\mvc\SistemaWebAlumn
 C:\Users\Flia. Galeano\Desktop\Accademy\repo-github\Accademy\mvc\SistemaWebAlumnos\SistemaWebAlumnos\bin\es\System.Web.Webpages.Razor.resources.dll
 C:\Users\Flia. Galeano\Desktop\Accademy\repo-github\Accademy\mvc\SistemaWebAlumnos\SistemaWebAlumnos\bin\es\System.Web.Helpers.resources.dll
 C:\Users\Flia. Galeano\Desktop\Accademy\repo-github\Accademy\mvc\SistemaWebAlumnos\SistemaWebAlumnos\bin\es\System.Web.Mvc.resources.dll
-C:\Users\Flia. Galeano\Desktop\Accademy\repo-github\Accademy\mvc\SistemaWebAlumnos\SistemaWebAlumnos\obj\Debug\SistemaWebAlumnos.csprojAssemblyReference.cache
 C:\Users\Flia. Galeano\Desktop\Accademy\repo-github\Accademy\mvc\SistemaWebAlumnos\SistemaWebAlumnos\obj\Debug\SistemaWebAlumnos.csproj.CoreCompileInputs.cache
 C:\Users\Flia. Galeano\Desktop\Accademy\repo-github\Accademy\mvc\SistemaWebAlumnos\SistemaWebAlumnos\obj\Debug\SistemaWebAlumnos.csproj.CopyComplete
 C:\Users\Flia. Galeano\Desktop\Accademy\repo-github\Accademy\mvc\SistemaWebAlumnos\SistemaWebAlumnos\obj\Debug\SistemaWebAlumnos.dll
@@ -83,3 +82,4 @@ C:\Users\Flia. Galeano\Desktop\Accademy\repo-github\Accademy\mvc\SistemaWebAlumn
 C:\Users\Flia. Galeano\Desktop\Accademy\repo-github\Accademy\mvc\SistemaWebAlumnos\SistemaWebAlumnos\obj\Debug\SistemaWebAlumnos.Migrations.Initial.resources
 C:\Users\Flia. Galeano\Desktop\Accademy\repo-github\Accademy\mvc\SistemaWebAlumnos\SistemaWebAlumnos\obj\Debug\SistemaWebAlumnos.csproj.GenerateResource.cache
 C:\Users\Flia. Galeano\Desktop\Accademy\repo-github\Accademy\mvc\SistemaWebAlumnos\SistemaWebAlumnos\obj\Debug\SistemaWebAlumnos.Migrations.agregarcampodni.resources
+C:\Users\Flia. Galeano\Desktop\Accademy\repo-github\Accademy\mvc\SistemaWebAlumnos\SistemaWebAlumnos\obj\Debug\SistemaWebAlumnos.csprojAssemblyReference.cache
