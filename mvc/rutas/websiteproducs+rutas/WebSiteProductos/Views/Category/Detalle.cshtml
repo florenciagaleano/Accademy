@@ -1,0 +1,26 @@
+﻿@model WebSiteProductos.Models.Category
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Detalle</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Categoria</legend>
+
+        <div class="display-label">
+            @Html.DisplayNameFor(model => model.CategoryName)
+        </div>
+        <div class="display-field">
+            @Html.DisplayFor(model => model.CategoryName)
+        </div>
+
+    </fieldset>
+    <p>
+        @Html.ActionLink("Volver a la lista", "Index")
+    </p>
+
+</body>
+</html>

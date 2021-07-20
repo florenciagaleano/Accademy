@@ -18,6 +18,12 @@ namespace SistemaWebAlumnos
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
             );
+
+            routes.MapRoute(
+               name: "StudentName",
+               url: "{controller}/{action}/{nombre}",
+               defaults: new { controller = "Alumno", action = "TraerPorNombre" }
+           );
         }
     }
 }

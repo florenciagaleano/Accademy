@@ -76,5 +76,11 @@ namespace SistemaWebAlumnos.Controllers
 
         }
 
+        public ActionResult TraerPorNombre(string nombre)
+        {
+            var alumnos = (from a in context.Alumnos where a.Nombre == nombre select a).ToList();
+            return View("Index",alumnos);
+        }
+
     }
 }
